@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+.nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color: chartreuse;
+    padding: 1rem;
+    font-size: xx-large;
+
+}
+.nav-elem{
+    padding: 1.5rem;
+    color:aqua;
+}
+.container{
+    width: 15rem;
+    height:15rem;
+    background-color: #fff;
+    margin: 1rem;
+    padding: 2rem;
+    border: 3px solid darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.newContainer{
+    width: 100%;
+    height: 100%;
+    display:inline-flex;
+}
+header.dashed{
+    border-bottom: 2px dashed black;
+    margin-bottom: 1rem;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bolder;
+}
+
+form .title{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+form .description{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+form button{
+    padding :0.2rem;
+    color: white;
+    background-color: black;
+    border-color: black;
+    cursor:grab;
+}
+.note{
+    width: 15rem;
+    height:13rem;
+    background-color: #fff;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    border: 3px solid darkgreen;
+    display: inline-flex;
+}
+
+.note .details{
+    max-height:7rem;
+    min-height: 8rem;
+    min-width: 11rem;
+    overflow-y:auto;
+}
+.bottom-content{
+    border-top: 1px dashed grey;
+    margin-top: 8.5rem;
+    position:fixed;
+}
+.settings>button{
+    margin-top: 0.5rem;
+    color: white;
+    background-color: black;
+    border-color: black;
+    cursor:grab;
+}
+.details>p{
+    font-size: x-large;
+    border-bottom: 1px solid grey;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+}
+.details>span{
+    font-size: small;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:crimson;
+}
